@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 15px;
+    height: 40px;
     top: 0;
 
     left: 0%;
@@ -14,7 +14,7 @@
 .headertop li,
 header li {
     list-style: none;
-    font-size: 8px;
+    font-size: 16px;
 }
 
 a {
@@ -36,7 +36,7 @@ a {
 
     width: 100%;
     margin: 0;
-    padding-left: 3px;
+    padding-left: 6px;
 }
 
 .right ul {
@@ -51,7 +51,7 @@ a {
     display: flex;
     justify-content: space-around;
     width: 30%;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 
@@ -68,34 +68,34 @@ a {
 
     justify-content: left;
     background-color: white;
-    margin-left: 5px;
+    margin-left: 10px;
     
 }
 
 input {
-    height: 10px;
+    height: 20px;
     font-size: xx-small;
 }
 
 select {
-    height: 10px;
+    height: 20px;
     border: 0;
 }
 
 
 #icon,
 input {
-    margin-left: 17px;
-    font-size: 7px;
+    margin-left: 34px;
+    font-size: 14px;
 }
 
 header {
     position: fixed;
     display: flex;
     flex-direction: row;
-    margin-top: 15px;
-    height: 20px;
-    font-size: small;
+    margin-top: 40px;
+    height: 40px;
+    font-size: 30px;
     justify-content: space-between;
     background-color: white;
     width: 100%;
@@ -106,7 +106,7 @@ header {
 
 .right1 ul {
     display: flex;
-    margin-top: 4px;
+    margin-top: 8px;
     justify-content: space-around;
     width: 90%;
 
@@ -115,21 +115,23 @@ header {
 .right1 {
     display: flex;
     justify-content: space-around;
+    text-align: center;
     width: 46%;
-    margin-right: 2px;
+    margin-right: 4px;
 }
 
 header button {
-    font-size: smaller;
+    font-size: 15px;
     background-color: rgb(228, 28, 28);
     color: white;
     border: 0;
-    border-radius: 10%;
+    border-radius: 5%;
     width: 100%;
+    height: 20px;
 }
 
 .c1 {
-    font-size: 8px;
+    font-size: 16px;
 }
 
 #text {
@@ -140,7 +142,7 @@ header button {
     left: 0;
 
     min-width: 290;
-    width: 148px;
+    width: 300px;
 }
 
 #text ul {
@@ -151,10 +153,10 @@ header button {
 
 #text a {
 
-    font-size: 7px;
+    font-size: 14px;
     color: #000;
     text-align: left;
-    line-height: 10px;
+    line-height: 20px;
     margin: 0px;
     padding: 0px 0px;
     font-family: sans-serif;
@@ -169,7 +171,7 @@ header button {
 }
 
 #text img {
-    width: 148px;
+    width: 300px;
 }
 
 #text h4 {
@@ -178,8 +180,8 @@ header button {
 
 .main-doc {
     display: block;
-    margin-left: 9px;
-    margin-right: 150px;
+    margin-left: 18px;
+    margin-right: 300px;
     background-color: white;
     border: 5px white solid;
     border-radius: 1%;
@@ -206,18 +208,19 @@ body {
 }
 
 button {
-    font-size: 7px;
-    width: 70px;
-    margin: 2px;
+    font-size: 14px;
+    width: 130px;
+    margin: 4px;
     border: #1d1c1c solid .1px;
     border-radius: 2px;
+    height: 24px;
 
 }
 
 #container {
     display:inline-flex;
 
-    margin-top:43px;
+    margin-top:90px;
     margin-left: 0;
 }
 body{
@@ -225,19 +228,22 @@ body{
 }
 p{
     font-family: sans-serif;
-    font-size: 8px;
-    word-spacing: 4px;
+    font-size: 16px;
+    word-spacing: 8px;
 }
 
 
 
 .code {
     background-color: #bbb;
-    font-size: 8px;
-    padding:7px 0;
+    font-size: 16px;
+    padding:14px 0;
     word-spacing: 4px;
 }
 .main-doc ul{
-    font-size: 8px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+h2{
     font-family: sans-serif;
 }
