@@ -11,7 +11,8 @@
     background-color: rgb(211, 205, 205);
 }
 
-li {
+.headertop li,
+header li {
     list-style: none;
     font-size: 8px;
 }
@@ -68,6 +69,7 @@ a {
     justify-content: left;
     background-color: white;
     margin-left: 5px;
+    
 }
 
 input {
@@ -91,7 +93,7 @@ header {
     position: fixed;
     display: flex;
     flex-direction: row;
-    margin-top: -27px;
+    margin-top: 15px;
     height: 20px;
     font-size: small;
     justify-content: space-between;
@@ -123,6 +125,7 @@ header button {
     color: white;
     border: 0;
     border-radius: 10%;
+    width: 100%;
 }
 
 .c1 {
@@ -148,18 +151,18 @@ header button {
 
 #text a {
 
-    font-size: 10px;
+    font-size: 7px;
     color: #000;
     text-align: left;
-    line-height: 20px;
+    line-height: 10px;
     margin: 0px;
-    padding: 5px 0px;
+    padding: 0px 0px;
     font-family: sans-serif;
 }
 
 #text li {
     display: block;
-    padding: 5px 0px;
+    padding: 0px 0px;
     margin: 0px;
     list-style: disc;
     border-bottom: 1px dotted #bbb;
@@ -174,13 +177,14 @@ header button {
 }
 
 .main-doc {
-
-
+    display: block;
     margin-left: 9px;
     margin-right: 150px;
     background-color: white;
     border: 5px white solid;
     border-radius: 1%;
+    width: auto;
+
 }
 
 img {
@@ -193,24 +197,47 @@ body {
 
 .button {
     display: flex;
+    flex-direction: row;
+
     height: 20px;
     justify-content: space-around;
 
+
 }
 
-.button button {
+button {
     font-size: 7px;
     width: 70px;
-    border: solid black .01px;
+    margin: 2px;
+    border: #1d1c1c solid .1px;
+    border-radius: 2px;
+
 }
 
 #container {
-    display: flex;
-    margin-top: 40px;
+    display:inline-flex;
+
+    margin-top:43px;
+    margin-left: 0;
 }
-@media only screen and (max-width: 768px) {
-    header{width: 100%;}
-    .headertop{width:100%}
-    #text{width: 100%;}
-    .main-doc{width: 100%;}
+body{
+    margin:0;
+}
+p{
+    font-family: sans-serif;
+    font-size: 8px;
+    word-spacing: 4px;
+}
+
+
+
+.code {
+    background-color: #bbb;
+    font-size: 8px;
+    padding:7px 0;
+    word-spacing: 4px;
+}
+.main-doc ul{
+    font-size: 8px;
+    font-family: sans-serif;
 }
