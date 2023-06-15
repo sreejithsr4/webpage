@@ -53,11 +53,6 @@ a {
     width: 30%;
     padding-right: 20px;
 }
-
-
-
-
-
 .title {
     display: flex;
     flex-direction: row;
@@ -198,6 +193,7 @@ header {
     border-radius: 1%;
     width: auto;
     padding-left: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -212,10 +208,8 @@ body {
 .button {
     display: flex;
     flex-direction: row;
-
-    height: 20px;
+ height: 30px;
     justify-content: space-around;
-
 
 }
 
@@ -224,8 +218,8 @@ button {
     width: 130px;
     margin: 4px;
     border: #1d1c1c solid .1px;
-    border-radius: 2px;
-    height: 24px;
+    border-radius: 5px;
+    height: 30px;
 
 }
 
@@ -266,7 +260,21 @@ footer{
     text-align: center;
     background-color: white;
 }
-a:hover{
+.headertop a:hover{
     color: green;
 }
-.login
+header a:hover{
+    color:green;
+}
+#text li:hover{
+    background-color: #746e6e;
+}
+.button button:hover{
+    background-color: #746e6e;
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
